@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.wrapper{
+  /* border: tomato solid; */
+  background-color: #021859;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(1fr 1fr 1fr);
+  height: 100vh;
+  width: 100vw;
+}
+
+.emptyContainer1{
+  /* border: teal solid; */
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.radioContainer{
+  /* border: steelblue solid; */
+  background-color: #032CA6;
+  grid-column: 2;
+  grid-row: 2;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50vw;
+  min-width: 450px;
+  height: 90vh;
+  border-radius: 20px;
+}
+
+.emptyContainer2{
+  /* border: teal solid; */
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.songTitles, .stationTitles{
+  /* border: turquoise solid; */
+  height: 10%;
+  width: 80%;
+  font-family: 'MuseoModerno', cursive;
+  text-align: center;
+  font-size: 3em;
+  color: #F25CA2;
+}
+
+ .stationRandomizer, .songRandomizer, .next, .previous{
+  width: 20%;
+  height: 5%;
+  min-width: 80px;
+  min-height: 50px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 1em;
+  background-color: transparent;
+  border: #042587 solid 5px;
+  color: #0B9ED9;
+  outline: none;
+  transition: 0.1s;
+} 
+
+ .stationRandomizer:active, .songRandomizer:active, .next:active, .previous:active{
+  width: 21%;
+  height: 7%;
+  font-size: 1.1em;
+  color: #00b7ff;
+  border: #001556 solid 5px;
+ }
+
+picture{
+  /* border: violet solid; */
+  height: 50%;
+  width: 50%;
+  min-width: 300px;
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.albumArt{
+  /* border: yellowgreen solid; */
+  background-color: #0433BF;
+  height: 100%;
+  min-width: 300px;
+  border-radius: 20px;
+}
+
+
+/*
+ * ─── EXPERIMENTAL ───────────────────────────────────────────────────────────────
+ */
+.track{
+  height: 3%;
+  border: none;
+  outline: none;
+  color: #661b29;
+}
