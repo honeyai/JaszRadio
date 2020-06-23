@@ -163,7 +163,52 @@ let stations = [
                     albumColor: "#BF364F",
                 },
         ],     
-    },   
+    }, 
+    { 
+
+        // Need me by simple creatures, not another Christmas song by blink 182,  and good ass into by chance the rapper
+
+
+        name: "Jeff's station",
+        songs: [
+            {
+                title: "Need Me",
+                artist: "Simple Creatures",
+                albumArt: "/assets/images/simplecreatures.jpg",
+                audio: "/assets/audio/Simple Creatures - Need Me (Audio).mp3",
+                backgroundColor: "#F2F2F2",
+                radioDiv: "#BFBFBF",
+                text: "#0D0D0D",
+                buttonText: "#404040",
+                buttonBorder: "#8C8C8C",
+                albumColor: "#8C8C8C",
+            },
+            {
+                title: "Not Another Christmas Song",
+                artist: "Blink 182",
+                albumArt: "/assets/images/blink182.jpeg",
+                audio: "/assets/audio/blink-182 - Not Another Christmas Song (Official Audio).mp3",
+                backgroundColor: "#D9A036",
+                radioDiv: "#0D0D0D",
+                text: "#8C0404",
+                buttonText: "#BF0413",
+                buttonBorder: "#0D0D0D",
+                albumColor: "#D9A78B",
+            },
+            {
+                title: "Good Ass Intro",
+                artist: "Chance the Rapper",
+                albumArt: "/assets/images/chance.jpg",
+                audio: "/assets/audio/Chance The Rapper - Good Ass Intro (feat. BJ The Chicago Kid, Lili K., Kiara Lanier).mp3",
+                backgroundColor: "#4A5259",
+                radioDiv: "#39402A",
+                text: "#D9C6B0",
+                buttonText: "#A66953",
+                buttonBorder: "#262622",
+                albumColor: "#68733F",
+            },
+        ]
+    },  
 ]  
 
 
