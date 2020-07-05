@@ -192,7 +192,7 @@ let stations = [
                 radioDiv: "#0D0D0D",
                 text: "#8C0404",
                 buttonText: "#BF0413",
-                buttonBorder: "#0D0D0D",
+                buttonBorder: "#bb997f",
                 albumColor: "#D9A78B",
             },
             {
@@ -269,8 +269,9 @@ selectStation.onclick =  () => {
     document.querySelector(".wrapper").style.backgroundColor = songNart[0].backgroundColor;
     document.querySelector(".radioContainer").style.backgroundColor = songNart[0].radioDiv;
     document.querySelector("picture").style.backgroundColor = songNart[0].albumColor;
-    document.querySelector("button").style.borderColor = songNart[0].buttonBorder;
-    document.querySelector("button").style.color = songNart[0].buttonText; 
+    document.querySelectorAll(".stationRandomizer, .previous, .songRandomizer, .next").style.borderColor = songNart[0].buttonBorder;
+    document.querySelectorAll(".stationRandomizer, .previous, .songRandomizer, .next").style.color = songNart[0].buttonText;
+
 }
 
 selectSong.onclick = () => {
@@ -285,8 +286,8 @@ selectSong.onclick = () => {
     document.querySelector(".wrapper").style.backgroundColor = songNart[0].backgroundColor;
     document.querySelector(".radioContainer").style.backgroundColor = songNart[0].radioDiv;
     document.querySelector("picture").style.backgroundColor = songNart[0].albumColor;
-    document.querySelector("button").style.borderColor = songNart[0].buttonBorder;
-    document.querySelector("button").style.color = songNart[0].buttonText;
+    document.querySelectorAll(".stationRandomizer, .previous, .songRandomizer, .next").style.borderColor = songNart[0].buttonBorder;
+    document.querySelectorAll(".stationRandomizer, .previous, .songRandomizer, .next").style.color = songNart[0].buttonText;
 }
 
 
